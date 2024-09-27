@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Book-card{
+    width: 250px;
+    height: 260px;
+    background: #fff;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+.Book-card:hover{
+    transform: scale(1.1);
+}
+.book-cover{
+    width: 100%;  
+}
+.book-text{
+text-align: center;
+}
+.booklist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap ;
+}
+.book-title{
+    font-size: 1em;
+    margin-bottom: 2px;
+}
+.book-author{
+    font-size: 0.9em;
+    
+}
+.book-description{
+    color: #777;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-input{
+    width: 400px;
+    border-radius: 8 px;
+}
